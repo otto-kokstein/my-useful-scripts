@@ -4,6 +4,13 @@
 
 A Python script used for editing the information (metadata) and the image embedded in a .mp3 file.
 
+## Requirements:
+You will need to install the library [pydub](https://github.com/jiaaro/pydub "Pydub's GitHub Page").
+
+Installation with pip: `pip install pydub`
+
+You will also need to download [FFmpeg](https://www.gyan.dev/ffmpeg/builds "FFmpeg for Windows") and add its directory to your system's PATH.
+
 ## Usage:
 Put the .mp3 file in the "merger" folder. (You may need to create it yourself.)
 

@@ -9,7 +9,9 @@ from typing import List, Tuple
 abs_path_to_src_folder: str = str(Path(root_path, "./merger/").resolve())
 files: List[str] = listdir(abs_path_to_src_folder)
 exts: List[str] = [os_path.splitext(file)[1] for file in files]
-if (len(files) == 2 and ".mp3" in exts and ".png" in exts) or (len(files) == 1 and ".mp3" in exts):
+if (len(files) == 2 and ".mp3" in exts and ".png" in exts) or (
+    len(files) == 1 and ".mp3" in exts
+):
     audio_file: pd.AudioSegment | None = None
     img_path: str | None = None
     for file in files:

@@ -1,9 +1,11 @@
 from ROOT_PATH import root_path
+from os import listdir
+from os import path as os_path
+from pathlib import Path
+from typing import List, Tuple
+
 import pydub as pd
 from pydub import utils
-from pathlib import Path
-from os import listdir, path as os_path
-from typing import List, Tuple
 
 
 abs_path_to_src_folder: str = str(Path(root_path, "./merger/").resolve())

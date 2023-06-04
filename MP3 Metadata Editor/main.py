@@ -23,7 +23,6 @@ if (
             )
         else:
             img_path = str(Path(abs_path_to_src_folder, f"./{file}").resolve())
-            print(img_path)
     if audio_file is not None:
         title: str = input("Title: ")
         track: str = input("Track: ")

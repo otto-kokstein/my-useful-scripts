@@ -5,7 +5,7 @@
 A Python script used for editing the information (metadata) and the image embedded in a .mp3 file.
 
 ## Usage:
-Put the .mp3 file in the "merger" folder.
+Put the .mp3 file in the "merger" folder. (You may need to create it yourself.)
 
 Optionally, also put the cover image you want to embed in the .mp3 file into the folder.
 
